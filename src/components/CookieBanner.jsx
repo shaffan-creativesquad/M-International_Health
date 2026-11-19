@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { pushDataLayer } from '../lib/site'
 
-// Cookie consent with Google Consent Mode v2.
+// ss Cookie consent with Google Consent Mode v2.
 // Defaults are set to "denied" in index.html. This updates them after the visitor chooses.
 const KEY = 'mih_consent'
 
