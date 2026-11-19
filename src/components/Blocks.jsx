@@ -69,7 +69,7 @@ export function Journey() {
             strokeLinecap="round"
           />
           <circle cx="110" cy="380" r="9" fill="#F6F1E8" />
-          <circle cx="520" cy="210" r="26" fill="#1F7A6D" />
+          <circle cx="520" cy="210" r="26" fill="#0277bb" />
           <rect x="514" y="196" width="12" height="28" rx="3" fill="#F6F1E8" />
           <rect x="506" y="204" width="28" height="12" rx="3" fill="#F6F1E8" />
         </svg>

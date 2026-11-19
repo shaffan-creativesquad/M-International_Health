@@ -55,9 +55,6 @@ export default function Header() {
         <div className="container header-inner">
           <Link className="brand" to="/" aria-label="M International Health home">
             <LogoMark />
-            <span className="brand-name">
-              M International Health<small>Care journeys to China</small>
-            </span>
           </Link>
           <button
             className="menu-toggle"

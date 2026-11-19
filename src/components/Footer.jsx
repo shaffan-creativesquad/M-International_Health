@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import { LogoMark } from './Icons'
 import { INSTAGRAM, openCookieSettings } from '../lib/site'
 
 export default function Footer() {
@@ -9,10 +8,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div>
             <Link className="brand" to="/">
-              <LogoMark />
-              <span className="brand-name">
-                M International Health<small>Care journeys to China</small>
-              </span>
+              <img src="/assets/img/footer-logo.jpeg" alt="M International Health" className="logo-img" />
             </Link>
             <p className="footer-about">
               An international healthcare navigation platform connecting patients with healthcare providers in
