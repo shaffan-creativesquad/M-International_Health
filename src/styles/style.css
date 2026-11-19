@@ -103,8 +103,8 @@ p{margin:0 0 1em}
 
 /* Strip */
 .strip{background:var(--ink);color:var(--ivory)}
-.strip ul{list-style:none;margin:0;padding:22px 0;display:grid;grid-template-columns:repeat(5,1fr);gap:16px;font-weight:600;font-size:.95rem}
-.strip li{display:flex;align-items:center;gap:10px;color:var(--ivory)}
+.strip ul{list-style:none;margin:0;padding:22px 0;display:flex;justify-content:space-between;align-items:center;gap:16px;font-weight:600;font-size:.95rem}
+.strip li{display:flex;align-items:center;gap:10px;color:var(--ivory);white-space:nowrap}
 .strip li::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--jade-bright);flex:none}
 
 /* Cards */
