@@ -11,7 +11,7 @@ const SCHEMA = [
         name: 'Does M provide medical treatment?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'No. M International Health is a healthcare navigation and care coordination service. Treatment is provided by independent licensed healthcare providers in China. We coordinate everything around your care and do not give medical advice.',
+          text: 'No. M International Health is an international patient coordination service. We coordinate records, appointments, translation, and travel. Licensed healthcare professionals and medical institutions make all medical decisions and provide all treatment.',
         },
       },
       {
@@ -19,7 +19,7 @@ const SCHEMA = [
         name: 'What is the free consultation?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'It is a care coordination consultation about your goals, preferred dates and options, and how we can help. It is not a medical consultation or a diagnosis.',
+          text: "It's a care coordination call about your goals, dates, and options. It isn't a medical consultation or diagnosis. It helps us understand your needs and recommend the right next step.",
         },
       },
       {
@@ -27,7 +27,15 @@ const SCHEMA = [
         name: 'Which countries do you serve?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'We currently focus on patients travelling from the United Kingdom, Ireland and the Netherlands, and welcome enquiries from other European countries.',
+          text: "We support international patients from around the world seeking medical care in China, whether that's a written second opinion from home or a coordinated trip to China.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Can I get a second opinion without traveling?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "Yes. Our online medical second opinion is a written, records-based review by a specialist in China. There's no travel and no video visit, and you can share the written opinion with your own doctor.",
         },
       },
       {
@@ -35,7 +43,7 @@ const SCHEMA = [
         name: 'Do I need a visa to visit China?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: "Under China's current visa-free policy, citizens of the UK, Ireland and the Netherlands can visit for up to 30 days without a visa. Entry rules can change, so always check the latest requirements with the Chinese embassy before you book.",
+          text: 'Entry rules will vary according to your nationality and the purpose of your visit, and they are subject to change. Always check the most up-to-date requirements with the Chinese Embassy in your country before traveling to China.',
         },
       },
       {
@@ -43,7 +51,7 @@ const SCHEMA = [
         name: 'Will someone speak English with me?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes. We arrange interpreter support for your appointments, and our care coordination team communicates with you in English.',
+          text: 'Yes, we have a dedicated bilingual coordinator to support you throughout your trip, and we will have professional medical interpreting arranged for you for any appointments where that is required.',
         },
       },
       {
@@ -51,7 +59,7 @@ const SCHEMA = [
         name: 'Can a family member travel with me?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes. We can plan accommodation and transport for a companion alongside your own itinerary.',
+          text: "Yes. Our international medical concierge can look after your companion's stay as well as yours, including accommodation and transfers.",
         },
       },
       {
@@ -59,7 +67,7 @@ const SCHEMA = [
         name: 'How is pricing confirmed?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Treatment prices are set by your chosen provider. You receive a clear quote and itinerary before you book flights, so you know what is included.',
+          text: 'You get a clear service plan and an estimate of the costs in writing before travel. The final treatment cost will be at the discretion of the hospital and will be confirmed by the hospital.',
         },
       },
       {
@@ -67,7 +75,7 @@ const SCHEMA = [
         name: 'Are travel and hotel costs included?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Your quote sets out exactly which travel and accommodation services are included, so there are no surprises later.',
+          text: 'Travel, accommodation, and local transport are all arranged via reputable partners and are shown in your estimated costs. You pay the hospital, treatment, and travel costs directly to the providers as part of your own out-of-pocket costs, separately from our service fees.',
         },
       },
       {
@@ -75,7 +83,7 @@ const SCHEMA = [
         name: 'What happens after I return home?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'We help you collect your reports and stay connected with your provider for follow up questions.',
+          text: "We'll help you to collect your reports and keep you in touch with your provider so that your healthcare in China continues seamlessly once you're back home.",
         },
       },
       {
@@ -83,7 +91,15 @@ const SCHEMA = [
         name: 'How do I share my medical records safely?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'After your consultation, your care coordination team explains how to share records securely. Please do not send detailed medical information through the website form.',
+          text: "Please don't send your records via our enquiry form. Once we've agreed a service, we'll let you know precisely how you can send your records securely.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Do my medical records need translating?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Not in all cases. We look at your records first to establish what needs translating and then provide a separate quote for our medical record translation services so you can make your decision prior to any translation taking place.',
         },
       },
     ],
@@ -94,8 +110,8 @@ export default function FaqPage() {
   return (
     <>
       <Seo
-        title="FAQ | Medical Travel to China Questions Answered | M International Health"
-        description="Answers to common questions about medical travel to China: visas, language support, pricing, safety, companions, aftercare and how M's care coordination works."
+        title="FAQ | Medical Care in China for Foreigners | M International Health"
+        description="Answers to common questions about medical care in China for foreigners: second opinions, visas, language support, pricing, records, companions, and how M's coordination works."
         path="/faq"
         schema={SCHEMA}
       />
@@ -107,9 +123,13 @@ export default function FaqPage() {
           <h1>
             Questions, <em>answered.</em>
           </h1>
-          <p className="lead">Can't find what you need? Ask us in a free care coordination consultation.</p>
+          <p className="lead">
+            Everything you need to know about medical care in China for foreigners. Can't find your answer?
+            Ask us in a free care coordination consultation.
+          </p>
         </div>
       </section>
+
       <section className="section" style={{ paddingTop: '40px' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
           <div className="faq-group" style={{ marginTop: '0' }}>
@@ -118,15 +138,19 @@ export default function FaqPage() {
               items={[
                 [
                   'Does M provide medical treatment?',
-                  'No. M International Health is a healthcare navigation and care coordination service. Treatment is provided by independent licensed healthcare providers in China. We coordinate everything around your care and do not give medical advice.',
+                  'No. M International Health is an international patient coordination service. We coordinate records, appointments, translation, and travel. Licensed healthcare professionals and medical institutions make all medical decisions and provide all treatment.',
                 ],
                 [
                   'What is the free consultation?',
-                  'It is a care coordination consultation about your goals, preferred dates and options, and how we can help. It is not a medical consultation or a diagnosis.',
+                  "It's a care coordination call about your goals, dates, and options. It isn't a medical consultation or diagnosis. It helps us understand your needs and recommend the right next step.",
                 ],
                 [
                   'Which countries do you serve?',
-                  'We currently focus on patients travelling from the United Kingdom, Ireland and the Netherlands, and welcome enquiries from other European countries.',
+                  "We support international patients from around the world seeking medical care in China, whether that's a written second opinion from home or a coordinated trip to China.",
+                ],
+                [
+                  'Can I get a second opinion without traveling?',
+                  "Yes. Our online medical second opinion is a written, records-based review by a specialist in China. There's no travel and no video visit, and you can share the written opinion with your own doctor.",
                 ],
               ]}
             />
@@ -137,15 +161,15 @@ export default function FaqPage() {
               items={[
                 [
                   'Do I need a visa to visit China?',
-                  "Under China's current visa-free policy, citizens of the UK, Ireland and the Netherlands can visit for up to 30 days without a visa. Entry rules can change, so always check the latest requirements with the Chinese embassy before you book.",
+                  'Entry rules will vary according to your nationality and the purpose of your visit, and they are subject to change. Always check the most up-to-date requirements with the Chinese Embassy in your country before traveling to China.',
                 ],
                 [
                   'Will someone speak English with me?',
-                  'Yes. We arrange interpreter support for your appointments, and our care coordination team communicates with you in English.',
+                  'Yes, we have a dedicated bilingual coordinator to support you throughout your trip, and we will have professional medical interpreting arranged for you for any appointments where that is required.',
                 ],
                 [
                   'Can a family member travel with me?',
-                  'Yes. We can plan accommodation and transport for a companion alongside your own itinerary.',
+                  "Yes. Our international medical concierge can look after your companion's stay as well as yours, including accommodation and transfers.",
                 ],
               ]}
             />
@@ -156,11 +180,11 @@ export default function FaqPage() {
               items={[
                 [
                   'How is pricing confirmed?',
-                  'Treatment prices are set by your chosen provider. You receive a clear quote and itinerary before you book flights, so you know what is included.',
+                  'You get a clear service plan and an estimate of the costs in writing before travel. The final treatment cost will be at the discretion of the hospital and will be confirmed by the hospital.',
                 ],
                 [
                   'Are travel and hotel costs included?',
-                  'Your quote sets out exactly which travel and accommodation services are included, so there are no surprises later.',
+                  'Travel, accommodation, and local transport are all arranged via reputable partners and are shown in your estimated costs. You pay the hospital, treatment, and travel costs directly to the providers as part of your own out-of-pocket costs, separately from our service fees.',
                 ],
               ]}
             />
@@ -171,20 +195,25 @@ export default function FaqPage() {
               items={[
                 [
                   'What happens after I return home?',
-                  'We help you collect your reports and stay connected with your provider for follow up questions.',
+                  "We'll help you to collect your reports and keep you in touch with your provider so that your healthcare in China continues seamlessly once you're back home.",
                 ],
                 [
                   'How do I share my medical records safely?',
-                  'After your consultation, your care coordination team explains how to share records securely. Please do not send detailed medical information through the website form.',
+                  "Please don't send your records via our enquiry form. Once we've agreed a service, we'll let you know precisely how you can send your records securely.",
+                ],
+                [
+                  'Do my medical records need translating?',
+                  'Not in all cases. We look at your records first to establish what needs translating and then provide a separate quote for our medical record translation services so you can make your decision prior to any translation taking place.',
                 ],
               ]}
             />
           </div>
         </div>
       </section>
+
       <Cta
         title="Still have a question?"
-        text="Ask our care coordination team. We reply within one business day."
+        text="Ask our care coordination team about medical care in China for foreigners. We reply within one business day."
       />
     </>
   )

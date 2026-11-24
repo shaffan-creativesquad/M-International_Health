@@ -41,8 +41,8 @@ export function ProofStrip() {
           <li>Dedicated care coordination</li>
           <li>Licensed partner providers</li>
           <li>Interpreter support</li>
-          <li>Travel and stay arranged</li>
-          <li>Clear quote before you travel</li>
+          <li>Five-star travel and stay</li>
+          <li>Clear service plan and estimated costs before you travel</li>
         </ul>
       </div>
     </section>

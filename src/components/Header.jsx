@@ -1,25 +1,19 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { LogoMark } from './Icons'
 
 const NAV = [
   {
-    label: 'Care Trips',
+    label: 'Treatments',
     items: [
       {
         to: '/travel-health-checkup',
-        title: 'Travel + Health Checkup',
-        desc: 'A full check, planned around your trip',
+        title: 'Medical Second Opinion',
+        desc: 'Written specialist opinion, no travel needed',
       },
-      { to: '/travel-dental', title: 'Travel + Dental', desc: 'Dental care with a city break built in' },
-    ],
-  },
-  {
-    label: 'Treatments',
-    items: [
-      { to: '/health-checkups', title: 'Health Checkups', desc: 'Comprehensive screening' },
-      { to: '/dental-veneers', title: 'Dental Veneers', desc: 'Cosmetic dentistry' },
-      { to: '/medical-treatment', title: 'Medical Treatment', desc: 'Specialist referrals' },
+      { to: '/medical-translation', title: 'Medical Translation', desc: 'Records, translation and interpreting' },
+      { to: '/cross-border-coordination', title: 'Cross-Border Coordination', desc: 'Medical coordination for patients in China' },
+      { to: '/complex-case-coordination', title: 'Complex Case Coordination', desc: 'Multi-specialty and complex case support' },
     ],
   },
   { label: 'How It Works', to: '/how-it-works' },
@@ -32,6 +26,7 @@ export default function Header() {
   const { pathname } = useLocation()
   const [menuOpen, setMenuOpen] = useState(false)
   const [openSub, setOpenSub] = useState(null)
+  const headerRef = useRef(null)
 
   // Close menus on page change
   useEffect(() => {
@@ -46,12 +41,23 @@ export default function Header() {
     return () => document.removeEventListener('keydown', onKey)
   }, [])
 
+  // Click outside closes dropdown
+  useEffect(() => {
+    const onClickOutside = (e) => {
+      if (headerRef.current && !headerRef.current.contains(e.target)) {
+        setOpenSub(null)
+      }
+    }
+    document.addEventListener('mousedown', onClickOutside)
+    return () => document.removeEventListener('mousedown', onClickOutside)
+  }, [])
+
   return (
     <>
       <a className="skip" href="#main">
         Skip to content
       </a>
-      <header className="site-header">
+      <header className="site-header" ref={headerRef}>
         <div className="container header-inner">
           <Link className="brand" to="/" aria-label="M International Health home">
             <LogoMark />

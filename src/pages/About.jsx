@@ -16,13 +16,13 @@ export default function About() {
             <Crumbs items={[['About M', null]]} />
             <span className="eyebrow">About M</span>
             <h1>
-              Care across borders, <em>made simple.</em>
+              Your trusted bridge <em>to care in China.</em>
             </h1>
             <p className="lead">
-              M International Health is an international healthcare navigation platform. We connect patients
-              with healthcare providers and coordinate everything around their care: provider matching,
-              appointments, translation support, and travel, accommodation and transport through trusted
-              third-party providers.
+              M International Health is a premium international healthcare coordination platform for
+              international patients seeking care in China. We connect you with licensed providers and manage
+              everything around your care: second opinions, medical record translation, appointments, travel,
+              and your stay, with a bilingual coordinator by your side.
             </p>
           </div>
           <div className="journey" style={{ minHeight: '420px' }} aria-hidden="true">
@@ -57,34 +57,37 @@ export default function About() {
           <div className="section-head">
             <span className="eyebrow">What guides us</span>
             <h2>
-              Four promises <em>we keep.</em>
+              Four promises <em>behind every journey.</em>
             </h2>
           </div>
           <div className="grid-4">
             <div className="card">
               <div className="step-num">01</div>
-              <h3>Patient first</h3>
-              <p>Your goals, comfort and time shape every plan.</p>
+              <h3>Patient First</h3>
+              <p>Every plan is shaped around your goals and comfort.</p>
             </div>
             <div className="card">
               <div className="step-num">02</div>
-              <h3>Clear and transparent</h3>
-              <p>Plain language and a clear quote before you travel.</p>
+              <h3>Clear and Transparent</h3>
+              <p>A clear service plan and estimated costs before you travel.</p>
             </div>
             <div className="card">
               <div className="step-num">03</div>
-              <h3>Trusted partners</h3>
-              <p>Licensed providers and vetted travel partners.</p>
+              <h3>Trusted Partners</h3>
+              <p>Licensed providers and carefully chosen travel partners.</p>
             </div>
             <div className="card">
               <div className="step-num">04</div>
-              <h3>Always reachable</h3>
-              <p>A care coordination team from first message to return.</p>
+              <h3>Always by Your Side</h3>
+              <p>Dedicated international healthcare coordination, start to finish.</p>
             </div>
           </div>
         </div>
       </section>
-      <Cta />
+      <Cta
+        title="Ready to begin your China health journey?"
+        text="Book a free care coordination consultation, and our international healthcare coordination team will take it from there. We get back to you within one business day."
+      />
     </>
   )
 }

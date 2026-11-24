@@ -2,7 +2,9 @@ import { Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
 import Home from './pages/Home'
 import TravelHealthCheckup from './pages/TravelHealthCheckup'
-import TravelDental from './pages/TravelDental'
+import MedicalTranslation from './pages/MedicalTranslation'
+import CrossBorderCoordination from './pages/CrossBorderCoordination'
+import ComplexCaseCoordination from './pages/ComplexCaseCoordination'
 import HealthCheckups from './pages/HealthCheckups'
 import DentalVeneers from './pages/DentalVeneers'
 import MedicalTreatment from './pages/MedicalTreatment'
@@ -21,7 +23,9 @@ export default function App() {
       <Route element={<Layout />}>
         <Route path="/" element={<Home />} />
         <Route path="/travel-health-checkup" element={<TravelHealthCheckup />} />
-        <Route path="/travel-dental" element={<TravelDental />} />
+        <Route path="/medical-translation" element={<MedicalTranslation />} />
+        <Route path="/cross-border-coordination" element={<CrossBorderCoordination />} />
+        <Route path="/complex-case-coordination" element={<ComplexCaseCoordination />} />
         <Route path="/health-checkups" element={<HealthCheckups />} />
         <Route path="/dental-veneers" element={<DentalVeneers />} />
         <Route path="/medical-treatment" element={<MedicalTreatment />} />

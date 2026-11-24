@@ -34,8 +34,8 @@ export default function DentalVeneers() {
             <Link className="btn" to="/free-consultation">
               Get My Personalised Plan
             </Link>
-            <Link className="btn ghost" to="/travel-dental">
-              See a dental trip
+            <Link className="btn ghost" to="/cross-border-coordination">
+              Plan your care in China
             </Link>
           </div>
         </div>

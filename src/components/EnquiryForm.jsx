@@ -2,9 +2,10 @@ import { Link, useNavigate } from 'react-router-dom'
 import { FORM_ENDPOINT, pushDataLayer } from '../lib/site'
 
 const INTERESTS = [
-  ['Health Checkup', 'health-checkup'],
-  ['Dental Veneers', 'dental-veneers'],
-  ['Medical Treatment', 'medical-treatment'],
+  ['Medical Second Opinion', 'medical-second-opinion'],
+  ['Translation and Interpreting', 'translation-interpreting'],
+  ['Cross-Border Coordination', 'cross-border-coordination'],
+  ['Complex Case', 'complex-case'],
   ['Not sure yet', 'not-sure'],
 ]
 
@@ -127,8 +128,9 @@ export default function EnquiryForm({
           Request My Care Plan
         </button>
         <p className="form-note">
-          This is a care coordination consultation about your goals, dates and options. It is not a medical
-          consultation or diagnosis. We reply within one business day.
+          Your request starts our international patient coordination process. This is a care coordination
+          consultation about your goals, dates, and options, not a medical consultation or diagnosis. We
+          reply within one business day.
         </p>
       </form>
     </div>

@@ -33,7 +33,7 @@ export default function HealthCheckups() {
               Find the Right Checkup
             </Link>
             <Link className="btn ghost" to="/travel-health-checkup">
-              See a checkup trip
+              Get a second opinion
             </Link>
           </div>
         </div>

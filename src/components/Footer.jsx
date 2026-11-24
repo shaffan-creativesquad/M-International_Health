@@ -19,10 +19,16 @@ export default function Footer() {
             <h4>Care</h4>
             <ul>
               <li>
-                <Link to="/travel-health-checkup">Travel + Health Checkup</Link>
+                <Link to="/travel-health-checkup">Medical Second Opinion</Link>
               </li>
               <li>
-                <Link to="/travel-dental">Travel + Dental</Link>
+                <Link to="/medical-translation">Medical Translation</Link>
+              </li>
+              <li>
+                <Link to="/cross-border-coordination">Cross-Border Coordination</Link>
+              </li>
+              <li>
+                <Link to="/complex-case-coordination">Complex Case Coordination</Link>
               </li>
               <li>
                 <Link to="/health-checkups">Health Checkups</Link>

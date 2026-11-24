@@ -6,69 +6,72 @@ export default function Concierge() {
   return (
     <>
       <Seo
-        title="Concierge and Travel | Hotels, Transfers, Interpreters | M International Health"
-        description="Airport pickup, accommodation near your clinic, local transport, interpreter support and itinerary planning, arranged through trusted third-party providers."
+        title="International Medical Concierge | Five-Star Care in China | M International Health"
+        description="Private airport pickup, five-star accommodation, private local transport, and a dedicated bilingual coordinator. M International Health arranges everything through trusted partners."
         path="/concierge"
       />
 
       <section className="page-hero dark">
         <div className="container">
-          <Crumbs items={[['Concierge and Travel', null]]} />
-          <span className="eyebrow">Concierge and travel</span>
+          <Crumbs items={[['Concierge', null]]} />
+          <span className="eyebrow">International medical concierge</span>
           <h1>
-            Arrive cared for. <em>Leave at ease.</em>
+            Five-star care, <em>from arrival to departure.</em>
           </h1>
           <p className="lead">
-            We take care of the logistics around your treatment, through trusted third-party providers, so
-            your trip feels calm from landing to departure.
+            Our international medical concierge will handle every aspect of your treatment, from a private
+            driver on arrival to five-star accommodation and a dedicated bilingual coordinator. We arrange
+            everything through our trusted partners so your trip is seamless from arrival to departure.
           </p>
         </div>
       </section>
+
       <section className="section">
         <div className="container">
           <div className="grid-3">
             <div className="card">
               <Icon />
-              <h3>Airport pickup</h3>
-              <p>A driver meets you at arrivals and takes you to your hotel.</p>
+              <h3>Private Airport Pickup</h3>
+              <p>A private driver meets you at arrivals and takes you straight to your hotel.</p>
             </div>
             <div className="card">
               <Icon />
-              <h3>Accommodation</h3>
-              <p>Comfortable hotels close to your clinic or hospital.</p>
+              <h3>Five-Star Accommodation</h3>
+              <p>Premium hotels close to your clinic or hospital.</p>
             </div>
             <div className="card">
               <Icon />
-              <h3>Local transport</h3>
-              <p>Transfers to every appointment, on your schedule.</p>
+              <h3>Private Local Transportation</h3>
+              <p>Private transfers to every appointment, on your schedule.</p>
             </div>
             <div className="card">
               <Icon variant="red" />
-              <h3>Interpreter support</h3>
-              <p>English-speaking support during visits and consultations.</p>
+              <h3>Dedicated Bilingual Coordinator</h3>
+              <p>English-speaking support throughout your visits and consultations.</p>
             </div>
             <div className="card">
               <Icon variant="red" />
-              <h3>Itinerary planning</h3>
-              <p>One clear schedule covering care, rest and travel.</p>
+              <h3>Itinerary Planning</h3>
+              <p>One clear schedule covering your care, rest, and travel.</p>
             </div>
             <div className="card">
               <Icon variant="red" />
-              <h3>Companion travel</h3>
+              <h3>Companion Travel</h3>
               <p>Bringing family? We plan their stay alongside yours.</p>
             </div>
           </div>
         </div>
       </section>
+
       <section className="section bg-sand">
         <div className="container split">
           <div className="ph sand">
             <span>Photo: partner hotel or city view</span>
           </div>
           <div>
-            <span className="eyebrow">Practical travel</span>
+            <span className="eyebrow">Travel essentials</span>
             <h2 style={{ marginBottom: '20px' }}>
-              Ready before <em>you land.</em>
+              Prepared for every step <em>of your journey.</em>
             </h2>
             <ul className="check-list">
               <li>Passport valid for at least six months</li>
@@ -77,12 +80,16 @@ export default function Concierge() {
               <li>Comfortable clothes for appointment days</li>
             </ul>
             <p className="form-note">
-              Your care coordination team shares a full checklist before you travel.
+              Your coordinator shares a full checklist before you start traveling in China.
             </p>
           </div>
         </div>
       </section>
-      <Cta />
+
+      <Cta
+        title="Experience our international medical concierge."
+        text="Book a free care coordination consultation for premium medical assistance in China for foreigners. We reply within one business day."
+      />
     </>
   )
 }

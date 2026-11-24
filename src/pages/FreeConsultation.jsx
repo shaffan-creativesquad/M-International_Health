@@ -19,16 +19,16 @@ export default function FreeConsultation() {
             <Crumbs items={[['Free Consultation', null]]} />
             <span className="eyebrow">Free consultation</span>
             <h1 style={{ fontSize: 'clamp(2.2rem,4.2vw,3.5rem)', margin: '6px 0 20px' }}>
-              Let's plan your <em>care journey.</em>
+              Begin your <em>China health journey.</em>
             </h1>
             <p className="lead">
-              Share a few details and a member of our care coordination team will reply within one business
-              day with next steps.
+              Share a few details, and our care coordination team will reply within one business day with
+              clear next steps. It's the first step in our international patient support services.
             </p>
             <div className="notice" style={{ marginTop: '28px' }}>
-              <b>Please note:</b> this is a care coordination consultation about your goals, dates and
-              options. It is not a medical consultation or diagnosis. Medical advice always comes from your
-              chosen licensed provider.
+              <b>Please note:</b> this is a care coordination consultation about your goals, your dates, and
+              your options. It is not a medical consultation or a diagnosis. Any medical advice would always
+              come from your chosen licensed provider.
             </div>
             <div className="contact-cards">
               <div className="contact-card">
