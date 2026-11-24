@@ -16,9 +16,13 @@ export default function HowItWorks() {
           <h1 style={{ marginLeft: 'auto', marginRight: 'auto' }}>
             From first message to <em>safe return.</em>
           </h1>
-          <p className="lead">Dedicated care coordination at every stage of your care journey.</p>
+          <p className="lead">
+            Clear, step-by-step international patient coordination, from your first enquiry until you are
+            home again.
+          </p>
         </div>
       </section>
+
       <section className="section">
         <div className="container">
           <div className="timeline">
@@ -27,8 +31,8 @@ export default function HowItWorks() {
               <div className="card">
                 <h3>Free care coordination consultation</h3>
                 <p>
-                  Tell us your goals and preferred travel window. This is a coordination conversation, not a
-                  medical consultation.
+                  Share your care goals and when you'd like to travel. This is a planning call, not a medical
+                  consultation.
                 </p>
               </div>
             </div>
@@ -36,14 +40,14 @@ export default function HowItWorks() {
               <div className="tl-num">2</div>
               <div className="card">
                 <h3>Provider matching</h3>
-                <p>We introduce suitable licensed providers in China and arrange your appointments.</p>
+                <p>We match you with licensed providers in China and book your appointments.</p>
               </div>
             </div>
             <div className="tl-item">
               <div className="tl-num">3</div>
               <div className="card">
                 <h3>Clear plan and quote</h3>
-                <p>You receive your itinerary and a clear quote before you book flights.</p>
+                <p>Get your itinerary and a clear quote before you book flights.</p>
               </div>
             </div>
             <div className="tl-item">
@@ -51,21 +55,24 @@ export default function HowItWorks() {
               <div className="card">
                 <h3>Care with support</h3>
                 <p>
-                  Accommodation, transfers and interpreter support are arranged, and our care coordination
-                  team stays reachable throughout your trip.
+                  Your stay, transfers, and interpreter are arranged, and our team stays reachable throughout
+                  your trip.
                 </p>
               </div>
             </div>
             <div className="tl-item">
               <div className="tl-num">5</div>
               <div className="card">
-                <h3>Return and follow up</h3>
-                <p>We help you collect reports and stay connected with your provider after you are home.</p>
+                <h3>Return and follow-up</h3>
+                <p>
+                  We help you collect your reports and stay connected with your provider once you're home.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <Cta />
     </>
   )
