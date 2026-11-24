@@ -65,9 +65,11 @@ export default function Concierge() {
 
       <section className="section bg-sand">
         <div className="container split">
-          <div className="ph sand">
-            <span>Photo: partner hotel or city view</span>
-          </div>
+          <img
+            src="/assets/img/business-colleagues-arriving-with-luggage-at-workp-2026-09-23-21-38-41-utc.JPG"
+            alt="Business colleagues arriving with luggage"
+            className="section-img"
+          />
           <div>
             <span className="eyebrow">Travel essentials</span>
             <h2 style={{ marginBottom: '20px' }}>

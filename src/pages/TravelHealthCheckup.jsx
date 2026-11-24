@@ -42,7 +42,7 @@ export default function TravelHealthCheckup() {
       <section className="page-hero lattice">
         <div className="container split wide-left">
           <div>
-            <Crumbs items={[['Care Trips', null], ['Medical Second Opinion', null]]} />
+            <Crumbs items={[['Treatment', null], ['Medical Second Opinion', null]]} />
             <span className="eyebrow">Medical second opinion | No travel required</span>
             <h1>
               Your online medical second opinion,{' '}

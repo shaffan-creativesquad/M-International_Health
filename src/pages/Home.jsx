@@ -1,6 +1,6 @@
 import Seo from '../components/Seo'
 import { Link } from 'react-router-dom'
-import { Cta, Journey, ProofStrip, Faq } from '../components/Blocks'
+import { Cta, ProofStrip, Faq } from '../components/Blocks'
 import { Icon } from '../components/Icons'
 
 const faqItems = [
@@ -80,7 +80,11 @@ export default function Home() {
               </span>
             </div>
           </div>
-          <Journey />
+          <img
+            src="/assets/img/hero-banner.jpeg"
+            alt="International patient care coordination"
+            className="hero-banner-img"
+          />
         </div>
       </section>
 

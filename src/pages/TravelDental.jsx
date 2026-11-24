@@ -42,7 +42,7 @@ export default function TravelDental() {
       <section className="page-hero lattice">
         <div className="container split wide-left">
           <div>
-            <Crumbs items={[['Care Trips', null], ['Cross-Border Medical Coordination', null]]} />
+            <Crumbs items={[['Treatment', null], ['Cross-Border Medical Coordination', null]]} />
             <span className="eyebrow">Cross-border medical coordination | For patients travelling to China</span>
             <h1>
               Medical assistance in China for foreigners,{' '}

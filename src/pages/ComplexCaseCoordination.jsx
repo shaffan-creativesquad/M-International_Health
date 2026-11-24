@@ -42,7 +42,7 @@ export default function ComplexCaseCoordination() {
       <section className="page-hero lattice">
         <div className="container split wide-left">
           <div>
-            <Crumbs items={[['Care Trips', null], ['Complex Case Coordination', null]]} />
+            <Crumbs items={[['Treatment', null], ['Complex Case Coordination', null]]} />
             <span className="eyebrow">Cross-border medical coordination | For patients travelling to China</span>
             <h1>
               Medical assistance in China for foreigners,{' '}

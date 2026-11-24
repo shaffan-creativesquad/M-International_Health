@@ -25,31 +25,11 @@ export default function About() {
               and your stay, with a bilingual coordinator by your side.
             </p>
           </div>
-          <div className="journey" style={{ minHeight: '420px' }} aria-hidden="true">
-            <div className="journey-map" style={{ inset: '0' }}>
-              <svg viewBox="0 0 620 420" preserveAspectRatio="xMidYMid meet">
-                <path
-                  d="M200 330A130 130 0 1 1 420 330"
-                  fill="none"
-                  stroke="#C9A45C"
-                  strokeWidth="8"
-                  strokeLinecap="round"
-                />
-                <line
-                  x1="170"
-                  y1="356"
-                  x2="450"
-                  y2="356"
-                  stroke="#C9A45C"
-                  strokeWidth="5"
-                  strokeLinecap="round"
-                />
-                <rect x="290" y="150" width="40" height="150" rx="10" fill="#1F7A6D" />
-                <rect x="235" y="205" width="150" height="40" rx="10" fill="#1F7A6D" />
-                <circle cx="480" cy="90" r="18" fill="#E0634C" />
-              </svg>
-            </div>
-          </div>
+          <img
+            src="/assets/img/professionals-charging-electric-vehicle-at-chargin-2026-09-23-00-12-28-utc.jpg"
+            alt="Professionals on the go"
+            className="section-img"
+          />
         </div>
       </section>
       <section className="section bg-sand">
