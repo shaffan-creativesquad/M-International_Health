@@ -4,7 +4,17 @@ import { LogoMark } from './Icons'
 
 const NAV = [
   {
-    label: 'Treatments',
+    label: 'Health Journeys',
+    items: [
+      {
+        to: '/shenzhen-health-journey',
+        title: 'Shenzhen Premium Health Journey',
+        desc: '5 Days / 4 Nights · $2,999 per person',
+      },
+    ],
+  },
+  {
+    label: 'Medical Services',
     items: [
       {
         to: '/travel-health-checkup',

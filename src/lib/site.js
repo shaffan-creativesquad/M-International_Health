@@ -1,4 +1,4 @@
-// Site-wide settings for M International Health INC.
+// Site-wide settings for M Global Health, Inc.
 export const DOMAIN = 'https://minternationalhealthinc.com'
 export const INSTAGRAM = 'https://www.instagram.com/m.international.health.inc'
 
@@ -9,7 +9,7 @@ export const FORM_ENDPOINT = 'YOUR_FORM_ENDPOINT'
 export const ORG_SCHEMA = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  name: 'M International Health INC',
+  name: 'M Global Health, Inc.',
   alternateName: 'M International Health',
   url: DOMAIN + '/',
   logo: DOMAIN + '/assets/img/logo-mark.svg',

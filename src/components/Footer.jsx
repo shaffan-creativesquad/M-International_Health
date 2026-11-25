@@ -16,7 +16,13 @@ export default function Footer() {
             </p>
           </div>
           <div>
-            <h4>Care</h4>
+            <h4>Health Journeys</h4>
+            <ul>
+              <li>
+                <Link to="/shenzhen-health-journey">Shenzhen Premium Health Journey</Link>
+              </li>
+            </ul>
+            <h4 style={{ marginTop: '24px' }}>Medical Services</h4>
             <ul>
               <li>
                 <Link to="/travel-health-checkup">Medical Second Opinion</Link>
@@ -29,15 +35,6 @@ export default function Footer() {
               </li>
               <li>
                 <Link to="/complex-case-coordination">Complex Case Coordination</Link>
-              </li>
-              <li>
-                <Link to="/health-checkups">Health Checkups</Link>
-              </li>
-              <li>
-                <Link to="/dental-veneers">Dental Veneers</Link>
-              </li>
-              <li>
-                <Link to="/medical-treatment">Medical Treatment</Link>
               </li>
             </ul>
           </div>
@@ -91,13 +88,13 @@ export default function Footer() {
         </div>
         <div className="disclaimer">
           <p>
-            M International Health INC is a healthcare navigation and care coordination service. We do not
+            M Global Health, Inc. is a healthcare navigation and care coordination service. We do not
             provide medical treatment, diagnosis or medical advice. Treatment is provided by independent
             licensed healthcare providers. Travel, accommodation and transport are arranged through
             third-party providers.
           </p>
           <p>
-            &copy; <span>{new Date().getFullYear()}</span> M International Health INC &middot;{' '}
+            &copy; <span>{new Date().getFullYear()}</span> M Global Health, Inc. &middot;{' '}
             <Link to="/privacy-policy">Privacy Policy</Link> &middot; <Link to="/terms">Terms</Link> &middot;{' '}
             <a href="#" onClick={openCookieSettings}>
               Cookie settings

@@ -10,6 +10,7 @@ import DentalVeneers from './pages/DentalVeneers'
 import MedicalTreatment from './pages/MedicalTreatment'
 import HowItWorks from './pages/HowItWorks'
 import Concierge from './pages/Concierge'
+import ShenzhenHealthJourney from './pages/ShenzhenHealthJourney'
 import About from './pages/About'
 import FaqPage from './pages/FaqPage'
 import FreeConsultation from './pages/FreeConsultation'
@@ -31,6 +32,7 @@ export default function App() {
         <Route path="/medical-treatment" element={<MedicalTreatment />} />
         <Route path="/how-it-works" element={<HowItWorks />} />
         <Route path="/concierge" element={<Concierge />} />
+        <Route path="/shenzhen-health-journey" element={<ShenzhenHealthJourney />} />
         <Route path="/about" element={<About />} />
         <Route path="/faq" element={<FaqPage />} />
         <Route path="/free-consultation" element={<FreeConsultation />} />
