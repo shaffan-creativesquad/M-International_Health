@@ -36,7 +36,7 @@ export default function Concierge() {
       <section className="section tight">
         <div className="container">
           <img
-            src="/assets/img/business-colleagues-arriving-with-luggage-at-workp-2026-09-23-21-38-41-utc.JPG"
+            src="/assets/img/5.jpeg"
             alt="Private arrival and transfer — premium concierge service in China"
             className="section-img"
             style={{ maxHeight: '500px', width: '100%' }}

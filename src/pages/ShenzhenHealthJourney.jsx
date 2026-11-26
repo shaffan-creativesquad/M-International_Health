@@ -143,7 +143,7 @@ export default function ShenzhenHealthJourney() {
       <section className="section">
         <div className="container split">
           <img
-            src="/assets/img/beautiful-shanghai-skyline-at-night-modern-urban-b-2026-09-24-21-46-36-utc.jpg"
+            src="/assets/img/2.jpeg"
             alt="Modern Shenzhen skyline at night"
             className="section-img"
           />
@@ -190,7 +190,7 @@ export default function ShenzhenHealthJourney() {
             </div>
           </div>
           <img
-            src="/assets/img/enthusiastic-woman-taking-selfie-with-food-in-rest-2026-09-22-12-40-57-utc.jpg"
+            src="/assets/img/3.jpeg"
             alt="Enjoying Shenzhen food and culture"
             className="section-img"
           />

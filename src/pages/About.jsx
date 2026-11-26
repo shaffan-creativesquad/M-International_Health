@@ -26,7 +26,7 @@ export default function About() {
             </p>
           </div>
           <img
-            src="/assets/img/professionals-charging-electric-vehicle-at-chargin-2026-09-23-00-12-28-utc.jpg"
+            src="/assets/img/6.jpeg"
             alt="Professionals on the go"
             className="section-img"
           />

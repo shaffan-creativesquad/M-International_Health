@@ -80,7 +80,7 @@ export default function Home() {
             </div>
           </div>
           <img
-            src="/assets/img/hero-banner.jpeg"
+            src="/assets/img/1.jpeg"
             alt="Premium China health journey"
             className="hero-banner-img"
           />
@@ -104,7 +104,7 @@ export default function Home() {
           </div>
           <div className="split" style={{ alignItems: 'start', gap: '48px' }}>
             <img
-              src="/assets/img/beautiful-shanghai-skyline-at-night-modern-urban-b-2026-09-24-21-46-36-utc.jpg"
+              src="/assets/img/2.jpeg"
               alt="Shenzhen city skyline at night"
               className="section-img"
             />
@@ -153,7 +153,7 @@ export default function Home() {
             </div>
           </div>
           <img
-            src="/assets/img/enthusiastic-woman-taking-selfie-with-food-in-rest-2026-09-22-12-40-57-utc.jpg"
+            src="/assets/img/3.jpeg"
             alt="Enjoying Shenzhen food and culture"
             className="section-img"
           />
@@ -287,7 +287,7 @@ export default function Home() {
             </div>
           </div>
           <img
-            src="/assets/img/business-colleagues-arriving-with-luggage-at-workp-2026-09-23-21-38-41-utc.JPG"
+            src="/assets/img/4.jpeg"
             alt="Private arrival and concierge service in China"
             className="section-img"
           />
