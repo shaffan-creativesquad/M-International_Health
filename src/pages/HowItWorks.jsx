@@ -5,7 +5,7 @@ export default function HowItWorks() {
   return (
     <>
       <Seo
-        title="How It Works | Care Coordination from Enquiry to Return | M International Health"
+        title="How It Works | Care Coordination from Enquiry to Return | M Global Health, Inc."
         description="Five steps from your first message to your safe return: free care coordination consultation, provider matching, trip planning, care with support, and follow up."
         path="/how-it-works"
       />

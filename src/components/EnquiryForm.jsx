@@ -119,7 +119,7 @@ export default function EnquiryForm({
           <div className="full consent">
             <input id={`${name}-consent`} name="consent" type="checkbox" value="yes" required />
             <label htmlFor={`${name}-consent`}>
-              I agree that M International Health may contact me about my enquiry and process my details as
+              I agree that M Global Health, Inc. may contact me about my enquiry and process my details as
               described in the <Link to="/privacy-policy">Privacy Policy</Link>.
             </label>
           </div>

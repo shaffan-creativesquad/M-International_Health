@@ -34,8 +34,8 @@ export default function MedicalTranslation() {
   return (
     <>
       <Seo
-        title="Medical Translation | M International Health"
-        description="Get a written medical second opinion from a specialist in China. Records-based, no travel required. M International Health organises your records and coordinates the opinion."
+        title="Medical Translation | M Global Health, Inc."
+        description="Get a written medical second opinion from a specialist in China. Records-based, no travel required. M Global Health, Inc. organises your records and coordinates the opinion."
         path="/medical-translation"
       />
 
@@ -182,7 +182,7 @@ export default function MedicalTranslation() {
       <section className="section tight">
         <div className="container">
           <div className="notice gold">
-            M International Health manages the process. We are not a medical provider, and we do not diagnose
+            M Global Health, Inc. manages the process. We are not a medical provider, and we do not diagnose
             or make any treatment recommendations. A qualified medical professional will provide the written
             opinion. A second opinion is not a substitute for the care you would normally receive from your own
             doctor.

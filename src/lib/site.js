@@ -10,7 +10,7 @@ export const ORG_SCHEMA = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: 'M Global Health, Inc.',
-  alternateName: 'M International Health',
+  alternateName: 'M Global Health, Inc.',
   url: DOMAIN + '/',
   logo: DOMAIN + '/assets/img/logo-mark.svg',
   description:

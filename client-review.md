@@ -65,7 +65,7 @@ M Global Health, Inc.
 
 Our customer-facing brand should be:
 
-M International Health
+M Global Health, Inc.
 
 Tagline:
 

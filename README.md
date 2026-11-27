@@ -1,4 +1,4 @@
-# M International Health INC | Website (React)
+# M Global Health, Inc. | Website (React)
 
 React version of minternationalhealthinc.com, built by Creative Squad Inc.
 Same design, copy and layout as the HTML version, rebuilt with **React 18 + Vite + React Router**.

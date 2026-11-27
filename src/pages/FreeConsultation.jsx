@@ -8,8 +8,8 @@ export default function FreeConsultation() {
   return (
     <>
       <Seo
-        title="Free Care Coordination Consultation | M International Health"
-        description="Book a free care coordination consultation with M International Health. Share your goals and dates, and we reply within one business day with next steps."
+        title="Free Care Coordination Consultation | M Global Health, Inc."
+        description="Book a free care coordination consultation with M Global Health, Inc.. Share your goals and dates, and we reply within one business day with next steps."
         path="/free-consultation"
       />
 

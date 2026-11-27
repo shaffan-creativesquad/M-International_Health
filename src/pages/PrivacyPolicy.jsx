@@ -6,8 +6,8 @@ export default function PrivacyPolicy() {
   return (
     <>
       <Seo
-        title="Privacy Policy | M International Health"
-        description="How M International Health collects, uses and protects personal information."
+        title="Privacy Policy | M Global Health, Inc."
+        description="How M Global Health, Inc. collects, uses and protects personal information."
         path="/privacy-policy"
       />
 
@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
           <h1 style={{ fontSize: '2.6rem', marginBottom: '24px' }}>Privacy Policy</h1>
           <div className="template-note">
             <b>Template for review.</b> This text is a starting structure only. It must be reviewed and
-            approved by M International Health and its legal adviser before the site goes live, including the
+            approved by M Global Health, Inc. and its legal adviser before the site goes live, including the
             items in [square brackets].
           </div>
           <p>
@@ -25,7 +25,7 @@ export default function PrivacyPolicy() {
           </p>
           <h2>Who we are</h2>
           <p>
-            M International Health INC ("M", "we", "us") is a healthcare navigation and care coordination
+            M Global Health, Inc. ("M", "we", "us") is a healthcare navigation and care coordination
             service located at 13904 Orangevale Ave, Corona, CA 92880, USA. Contact: [privacy email].
           </p>
           <h2>Information we collect</h2>

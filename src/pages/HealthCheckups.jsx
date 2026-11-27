@@ -7,7 +7,7 @@ export default function HealthCheckups() {
   return (
     <>
       <Seo
-        title="Health Checkups in China | Comprehensive Screening | M International Health"
+        title="Health Checkups in China | Comprehensive Screening | M Global Health, Inc."
         description="Comprehensive health checkups at partner hospitals in China, with results explained in English. M coordinates appointments, interpreters, hotel and transfers."
         path="/health-checkups"
       />

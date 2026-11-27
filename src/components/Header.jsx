@@ -69,7 +69,7 @@ export default function Header() {
       </a>
       <header className="site-header" ref={headerRef}>
         <div className="container header-inner">
-          <Link className="brand" to="/" aria-label="M International Health home">
+          <Link className="brand" to="/" aria-label="M Global Health, Inc. home">
             <LogoMark />
           </Link>
           <button

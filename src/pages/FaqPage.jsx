@@ -11,7 +11,7 @@ const SCHEMA = [
         name: 'Does M provide medical treatment?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'No. M International Health is an international patient coordination service. We coordinate records, appointments, translation, and travel. Licensed healthcare professionals and medical institutions make all medical decisions and provide all treatment.',
+          text: 'No. M Global Health, Inc. is an international patient coordination service. We coordinate records, appointments, translation, and travel. Licensed healthcare professionals and medical institutions make all medical decisions and provide all treatment.',
         },
       },
       {
@@ -110,7 +110,7 @@ export default function FaqPage() {
   return (
     <>
       <Seo
-        title="FAQ | Medical Care in China for Foreigners | M International Health"
+        title="FAQ | Medical Care in China for Foreigners | M Global Health, Inc."
         description="Answers to common questions about medical care in China for foreigners: second opinions, visas, language support, pricing, records, companions, and how M's coordination works."
         path="/faq"
         schema={SCHEMA}
@@ -138,7 +138,7 @@ export default function FaqPage() {
               items={[
                 [
                   'Does M provide medical treatment?',
-                  'No. M International Health is an international patient coordination service. We coordinate records, appointments, translation, and travel. Licensed healthcare professionals and medical institutions make all medical decisions and provide all treatment.',
+                  'No. M Global Health, Inc. is an international patient coordination service. We coordinate records, appointments, translation, and travel. Licensed healthcare professionals and medical institutions make all medical decisions and provide all treatment.',
                 ],
                 [
                   'What is the free consultation?',

@@ -5,8 +5,8 @@ export default function Terms() {
   return (
     <>
       <Seo
-        title="Terms of Use | M International Health"
-        description="Terms for using the M International Health website and care coordination services."
+        title="Terms of Use | M Global Health, Inc."
+        description="Terms for using the M Global Health, Inc. website and care coordination services."
         path="/terms"
       />
 
@@ -16,7 +16,7 @@ export default function Terms() {
           <h1 style={{ fontSize: '2.6rem', marginBottom: '24px' }}>Terms of Use</h1>
           <div className="template-note">
             <b>Template for review.</b> This text is a starting structure only. It must be reviewed and
-            approved by M International Health and its legal adviser before the site goes live, including the
+            approved by M Global Health, Inc. and its legal adviser before the site goes live, including the
             items in [square brackets].
           </div>
           <p>
@@ -24,7 +24,7 @@ export default function Terms() {
           </p>
           <h2>Our service</h2>
           <p>
-            M International Health INC provides healthcare navigation and care coordination services. We do
+            M Global Health, Inc. provides healthcare navigation and care coordination services. We do
             not provide medical treatment, diagnosis or medical advice. All medical services are provided by
             independent licensed healthcare providers, who are responsible for their own care.
           </p>

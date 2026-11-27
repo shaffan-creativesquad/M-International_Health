@@ -7,8 +7,8 @@ export default function Concierge() {
   return (
     <>
       <Seo
-        title="International Medical Concierge | Five-Star Care in China | M International Health"
-        description="Private airport pickup, five-star accommodation, private local transport, and a dedicated bilingual coordinator. M International Health arranges everything through trusted partners."
+        title="International Medical Concierge | Five-Star Care in China | M Global Health, Inc."
+        description="Private airport pickup, five-star accommodation, private local transport, and a dedicated bilingual coordinator. M Global Health, Inc. arranges everything through trusted partners."
         path="/concierge"
       />
 

@@ -7,7 +7,7 @@ export default function ShenzhenHealthJourney() {
   return (
     <>
       <Seo
-        title="Shenzhen Premium Health Journey | 5 Days / 4 Nights | M International Health"
+        title="Shenzhen Premium Health Journey | 5 Days / 4 Nights | M Global Health, Inc."
         description="Experience Shenzhen with a premium health checkup and traditional Chinese wellness included. 5 days, 4 nights, small group of 4–6 guests, $2,999 per person. Five-star accommodation, private transportation and bilingual coordination included."
         path="/shenzhen-health-journey"
       />

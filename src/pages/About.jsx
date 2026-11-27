@@ -5,8 +5,8 @@ export default function About() {
   return (
     <>
       <Seo
-        title="About M International Health | Care Across Borders, Made Simple"
-        description="M International Health is an international healthcare navigation platform connecting patients with healthcare providers in China, with professional care coordination and clear communication."
+        title="About M Global Health, Inc. | Care Across Borders, Made Simple"
+        description="M Global Health, Inc. is an international healthcare navigation platform connecting patients with healthcare providers in China, with professional care coordination and clear communication."
         path="/about"
       />
 
@@ -19,7 +19,7 @@ export default function About() {
               Your trusted bridge <em>to care in China.</em>
             </h1>
             <p className="lead">
-              M International Health is a premium international healthcare coordination platform for
+              M Global Health, Inc. is a premium international healthcare coordination platform for
               international patients seeking care in China. We connect you with licensed providers and manage
               everything around your care: second opinions, medical record translation, appointments, travel,
               and your stay, with a bilingual coordinator by your side.

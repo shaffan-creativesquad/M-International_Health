@@ -34,8 +34,8 @@ export default function CrossBorderCoordination() {
   return (
     <>
       <Seo
-        title="Cross-Border Medical Coordination in China | M International Health"
-        description="Planning to travel to China for treatment? M International Health coordinates hospital direction, appointments, record preparation, and on-site support. Written plan before any work begins."
+        title="Cross-Border Medical Coordination in China | M Global Health, Inc."
+        description="Planning to travel to China for treatment? M Global Health, Inc. coordinates hospital direction, appointments, record preparation, and on-site support. Written plan before any work begins."
         path="/cross-border-coordination"
       />
 
@@ -183,7 +183,7 @@ export default function CrossBorderCoordination() {
       <section className="section tight">
         <div className="container">
           <div className="notice gold">
-            M International Health runs the process. We are not a medical provider in any way and do not
+            M Global Health, Inc. runs the process. We are not a medical provider in any way and do not
             diagnose or make any treatment recommendations. The hospitals and the specialists themselves decide
             whether they will take the case. Medical, travel, and third-party costs are all separate and are
             paid directly to the providers.

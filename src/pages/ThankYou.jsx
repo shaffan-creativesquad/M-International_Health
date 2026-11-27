@@ -12,7 +12,7 @@ export default function ThankYou() {
   return (
     <>
       <Seo
-        title="Thank You | M International Health"
+        title="Thank You | M Global Health, Inc."
         description="Thank you for your enquiry. Our care coordination team will reply within one business day."
         path="/thank-you"
         noindex

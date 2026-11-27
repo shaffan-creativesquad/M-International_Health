@@ -1,6 +1,6 @@
 export function LogoMark() {
   return (
-    <img src="/assets/img/logo.png" alt="M International Health" className="logo-img" />
+    <img src="/assets/img/logo.png" alt="M Global Health, Inc." className="logo-img" />
   )
 }
 

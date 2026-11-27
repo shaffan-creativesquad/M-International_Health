@@ -5,8 +5,8 @@ import { Icon } from '../components/Icons'
 
 const faqItems = [
   [
-    'What does M International Health do?',
-    'M International Health is an international healthcare coordination service for international patients seeking care in China. We organize your records, coordinate second opinions, appointments, translation, and travel, and support you throughout. We are not a medical provider. Licensed healthcare professionals make all medical decisions.',
+    'What does M Global Health, Inc. do?',
+    'M Global Health, Inc. is an international healthcare coordination service for international patients seeking care in China. We organize your records, coordinate second opinions, appointments, translation, and travel, and support you throughout. We are not a medical provider. Licensed healthcare professionals make all medical decisions.',
   ],
   [
     'What is a China Health Journey?',
@@ -42,7 +42,7 @@ export default function Home() {
   return (
     <>
       <Seo
-        title="M International Health | Travel China. Return Healthier."
+        title="M Global Health, Inc. | Travel China. Return Healthier."
         description="Premium China Health Journeys and medical coordination for international patients. Five-star accommodation, private transportation, bilingual coordination and healthcare — all arranged for you."
         path="/"
       />
@@ -55,7 +55,7 @@ export default function Home() {
               Premium China health journeys. <em>Every step coordinated.</em>
             </h1>
             <p className="lead">
-              M International Health connects international patients with premium health journeys and licensed
+              M Global Health, Inc. connects international patients with premium health journeys and licensed
               hospitals throughout China — with five-star accommodation, private transportation and a dedicated
               bilingual coordinator at every step.
             </p>

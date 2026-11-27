@@ -6,7 +6,7 @@ export default function MedicalTreatment() {
   return (
     <>
       <Seo
-        title="Medical Treatment in China | Specialist Referrals | M International Health"
+        title="Medical Treatment in China | Specialist Referrals | M Global Health, Inc."
         description="Send your medical records for review by qualified providers in China. M coordinates appointments, interpreters, travel and your stay around the treatment plan."
         path="/medical-treatment"
       />

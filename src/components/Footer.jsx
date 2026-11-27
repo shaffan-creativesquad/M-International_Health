@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div>
             <Link className="brand" to="/">
-              <img src="/assets/img/footer-logo.jpeg" alt="M International Health" className="logo-img" />
+              <img src="/assets/img/footer-logo.jpeg" alt="M Global Health, Inc." className="logo-img" />
             </Link>
             <p className="footer-about">
               An international healthcare navigation platform connecting patients with healthcare providers in

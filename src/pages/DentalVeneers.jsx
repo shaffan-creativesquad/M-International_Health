@@ -7,7 +7,7 @@ export default function DentalVeneers() {
   return (
     <>
       <Seo
-        title="Dental Veneers in China | Coordinated Dental Care | M International Health"
+        title="Dental Veneers in China | Coordinated Dental Care | M Global Health, Inc."
         description="Dental veneers in China with licensed partner clinics. Consultation, visits, interpreter, hotel and transfers coordinated around your travel dates by M."
         path="/dental-veneers"
       />
