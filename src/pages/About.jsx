@@ -5,8 +5,8 @@ export default function About() {
   return (
     <>
       <Seo
-        title="About M Global Health, Inc. | Care Across Borders, Made Simple"
-        description="M Global Health, Inc. is an international healthcare navigation platform connecting patients with healthcare providers in China, with professional care coordination and clear communication."
+        title="About M Global Health, Inc. | Your Private Concierge in China"
+        description="M Global Health, Inc. is your private concierge in China — Business, Lifestyle and Health. A bilingual team arranging curated business connections, premium lifestyle experiences and world-class healthcare."
         path="/about"
       />
 
@@ -16,13 +16,12 @@ export default function About() {
             <Crumbs items={[['About M', null]]} />
             <span className="eyebrow">About M</span>
             <h1>
-              Your trusted bridge <em>to care in China.</em>
+              Your private concierge <em>in China.</em>
             </h1>
             <p className="lead">
-              M Global Health, Inc. is a premium international healthcare coordination platform for
-              international patients seeking care in China. We connect you with licensed providers and manage
-              everything around your care: second opinions, medical record translation, appointments, travel,
-              and your stay, with a bilingual coordinator by your side.
+              M Global Health, Inc. is a private concierge for discerning visitors to China. We arrange
+              executive business connections, premium lifestyle experiences and world-class healthcare —
+              Business, Lifestyle and Health — with a dedicated bilingual team at every step.
             </p>
           </div>
           <img
@@ -43,8 +42,8 @@ export default function About() {
           <div className="grid-4">
             <div className="card">
               <div className="step-num">01</div>
-              <h3>Patient First</h3>
-              <p>Every plan is shaped around your goals and comfort.</p>
+              <h3>Guest First</h3>
+              <p>Every plan is shaped around your goals, priorities and comfort.</p>
             </div>
             <div className="card">
               <div className="step-num">02</div>
@@ -59,14 +58,14 @@ export default function About() {
             <div className="card">
               <div className="step-num">04</div>
               <h3>Always by Your Side</h3>
-              <p>Dedicated international healthcare coordination, start to finish.</p>
+              <p>Dedicated bilingual concierge support, start to finish.</p>
             </div>
           </div>
         </div>
       </section>
       <Cta
-        title="Ready to begin your China health journey?"
-        text="Book a free care coordination consultation, and our international healthcare coordination team will take it from there. We get back to you within one business day."
+        title="Ready for your private China experience?"
+        text="Talk to our concierge team about Business, Lifestyle or Health. We reply within one business day."
       />
     </>
   )

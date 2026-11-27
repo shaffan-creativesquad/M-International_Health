@@ -128,9 +128,9 @@ export default function EnquiryForm({
           Request My Care Plan
         </button>
         <p className="form-note">
-          Your request starts our international patient coordination process. This is a care coordination
-          consultation about your goals, dates, and options, not a medical consultation or diagnosis. We
-          reply within one business day.
+          Your request goes straight to our concierge team. This is a planning consultation about your
+          goals, dates and options — not a medical consultation or diagnosis. We reply within one business
+          day.
         </p>
       </form>
     </div>

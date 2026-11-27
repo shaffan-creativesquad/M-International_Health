@@ -19,11 +19,11 @@ export default function FreeConsultation() {
             <Crumbs items={[['Free Consultation', null]]} />
             <span className="eyebrow">Free consultation</span>
             <h1 style={{ fontSize: 'clamp(2.2rem,4.2vw,3.5rem)', margin: '6px 0 20px' }}>
-              Begin your <em>China health journey.</em>
+              Begin your <em>China experience.</em>
             </h1>
             <p className="lead">
-              Share a few details, and our care coordination team will reply within one business day with
-              clear next steps. It's the first step in our international patient support services.
+              Share a few details about your goals — business, lifestyle or health — and our concierge
+              team will reply within one business day with clear next steps.
             </p>
             <div className="notice" style={{ marginTop: '28px' }}>
               <b>Please note:</b> this is a care coordination consultation about your goals, your dates, and
@@ -44,15 +44,7 @@ export default function FreeConsultation() {
                   </span>
                 </div>
               </div>
-              <div className="contact-card">
-                <div className="icon gold">
-                  <PlusIcon />
-                </div>
-                <div>
-                  <b>Office</b>
-                  <span>13904 Orangevale Ave, Corona, CA 92880, USA</span>
-                </div>
-              </div>
+              {/* TODO: add office/mailing address once M confirms a public address */}
               {/* TODO: add email and WhatsApp contact cards once M confirms them */}
             </div>
           </div>

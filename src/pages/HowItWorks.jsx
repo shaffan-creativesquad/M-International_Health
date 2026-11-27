@@ -5,8 +5,8 @@ export default function HowItWorks() {
   return (
     <>
       <Seo
-        title="How It Works | Care Coordination from Enquiry to Return | M Global Health, Inc."
-        description="Five steps from your first message to your safe return: free care coordination consultation, provider matching, trip planning, care with support, and follow up."
+        title="How It Works | Private Concierge in China | M Global Health, Inc."
+        description="Five steps from your first message to your return home: free consultation, bespoke plan, clear itinerary and costs, full on-the-ground support, and follow-up."
         path="/how-it-works"
       />
 
@@ -17,8 +17,8 @@ export default function HowItWorks() {
             From first message to <em>safe return.</em>
           </h1>
           <p className="lead">
-            Clear, step-by-step international patient coordination, from your first enquiry until you are
-            home again.
+            Five clear steps from your first enquiry to your return home — whether you are coming to China
+            for business, lifestyle or health.
           </p>
         </div>
       </section>
@@ -29,34 +29,34 @@ export default function HowItWorks() {
             <div className="tl-item">
               <div className="tl-num">1</div>
               <div className="card">
-                <h3>Free care coordination consultation</h3>
+                <h3>Free consultation</h3>
                 <p>
-                  Share your care goals and when you'd like to travel. This is a planning call, not a medical
-                  consultation.
+                  Share your goals — business, lifestyle, health or a combination. This is a planning call,
+                  not a medical consultation.
                 </p>
               </div>
             </div>
             <div className="tl-item">
               <div className="tl-num">2</div>
               <div className="card">
-                <h3>Provider matching</h3>
-                <p>We match you with licensed providers in China and book your appointments.</p>
+                <h3>Bespoke plan</h3>
+                <p>Your concierge team builds a plan to match your brief — connections, experiences, appointments and accommodation.</p>
               </div>
             </div>
             <div className="tl-item">
               <div className="tl-num">3</div>
               <div className="card">
-                <h3>Clear plan and quote</h3>
-                <p>Get your itinerary and a clear quote before you book flights.</p>
+                <h3>Clear itinerary and costs</h3>
+                <p>You receive your full itinerary and estimated costs in writing before you commit to anything.</p>
               </div>
             </div>
             <div className="tl-item">
               <div className="tl-num">4</div>
               <div className="card">
-                <h3>Care with support</h3>
+                <h3>Your stay with full support</h3>
                 <p>
-                  Your stay, transfers, and interpreter are arranged, and our team stays reachable throughout
-                  your trip.
+                  Private transfers, five-star accommodation and a dedicated bilingual coordinator with you
+                  throughout your entire stay.
                 </p>
               </div>
             </div>
@@ -65,7 +65,8 @@ export default function HowItWorks() {
               <div className="card">
                 <h3>Return and follow-up</h3>
                 <p>
-                  We help you collect your reports and stay connected with your provider once you're home.
+                  We follow up after you return home — whether that means collecting reports or staying in
+                  touch with a provider.
                 </p>
               </div>
             </div>

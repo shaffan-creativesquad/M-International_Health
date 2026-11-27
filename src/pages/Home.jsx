@@ -6,35 +6,35 @@ import { Icon } from '../components/Icons'
 const faqItems = [
   [
     'What does M Global Health, Inc. do?',
-    'M Global Health, Inc. is an international healthcare coordination service for international patients seeking care in China. We organize your records, coordinate second opinions, appointments, translation, and travel, and support you throughout. We are not a medical provider. Licensed healthcare professionals make all medical decisions.',
+    'M Global Health, Inc. is your private concierge in China — covering Business, Lifestyle and Health. We arrange executive business visits and industry connections, premium lifestyle and travel experiences, and healthcare coordination with licensed providers in China, all with a dedicated bilingual team.',
+  ],
+  [
+    'What business services does M arrange?',
+    'We curate executive visits, factory tours, industry introductions and business connections across China. Everything is arranged to your brief — meetings, itinerary, transport and accommodation — so you can focus on the relationship, not the logistics.',
+  ],
+  [
+    'What lifestyle experiences does M offer?',
+    'Private travel, premium hotels, fine dining reservations, cultural experiences, local guides and bespoke transportation — we arrange China at its very best, tailored to your interests and schedule.',
   ],
   [
     'What is a China Health Journey?',
     'A China Health Journey is a fully arranged premium trip to China that combines travel, wellness and healthcare experiences. Our first confirmed journey is the Shenzhen Premium Health Journey — 5 days, 4 nights, small group, $2,999 per person — which includes five-star accommodation, private transportation, an English-speaking guide, Shenzhen city experiences, a complimentary premium health checkup and a complimentary traditional Chinese wellness experience.',
   ],
   [
-    'Do I need to travel to China?',
+    'Which medical services do you coordinate?',
+    'We coordinate executive health checkups, dental, wellness experiences, written medical second opinions, medical translation and interpreting, cross-border medical coordination for patients coming to China, and bespoke support for complex multi-specialty cases.',
+  ],
+  [
+    'Do I need to travel to China for medical services?',
     'Not necessarily. Our written medical second opinion is based on your records, so you can stay at home. If you do decide to travel, we will coordinate your medical care in China from your first appointment right through to your flight home.',
   ],
   [
-    'Which medical services do you coordinate?',
-    'We coordinate four core medical services: written medical second opinions, medical translation and interpreting, cross-border medical coordination for patients coming to China, and bespoke support for complex multi-specialty cases.',
+    'What support will I have on the ground in China?',
+    'Your trip includes private airport pickup, five-star accommodation, private local transport, and a dedicated bilingual coordinator throughout — whether you are here for business, lifestyle, healthcare or a combination of all three.',
   ],
   [
     'Are hospital and treatment costs included in the Health Journey price?',
     'The complimentary health checkup is included in the $2,999 per person Health Journey price. Any additional treatment or specialist consultations are arranged and paid separately, directly with the hospital or clinic.',
-  ],
-  [
-    'What support will I have in China?',
-    'Your trip includes private airport pickup, five-star accommodation, private local transport, and a dedicated bilingual coordinator. For Health Journeys, your English-speaking guide is with you throughout the entire experience.',
-  ],
-  [
-    'Do I need my medical records ready to start?',
-    'No. You can enquire without records. Once we understand what you need, we will tell you exactly what records to provide and how to pass them securely.',
-  ],
-  [
-    'Can you guarantee that a hospital will accept my case?',
-    'No. Hospitals and specialists decide whether and when they accept a case. We prepare your request properly, communicate professionally, and follow through. This is how we approach cross-border medical services.',
   ],
 ]
 
@@ -42,40 +42,40 @@ export default function Home() {
   return (
     <>
       <Seo
-        title="M Global Health, Inc. | Travel China. Return Healthier."
-        description="Premium China Health Journeys and medical coordination for international patients. Five-star accommodation, private transportation, bilingual coordination and healthcare — all arranged for you."
+        title="M Global Health, Inc. | Your Private Concierge in China"
+        description="M Global Health, Inc. is your private concierge in China — Business, Lifestyle and Health. Curated business connections, premium lifestyle experiences and world-class healthcare, all arranged for you."
         path="/"
       />
 
       <section className="hero lattice">
         <div className="container hero-grid">
           <div>
-            <span className="eyebrow">Travel China. Return Healthier.</span>
+            <span className="eyebrow">Business · Lifestyle · Health</span>
             <h1>
-              Premium China health journeys. <em>Every step coordinated.</em>
+              Your Private Concierge <em>in China.</em>
             </h1>
             <p className="lead">
-              M Global Health, Inc. connects international patients with premium health journeys and licensed
-              hospitals throughout China — with five-star accommodation, private transportation and a dedicated
-              bilingual coordinator at every step.
+              M Global Health, Inc. is your private concierge in China — curating executive business
+              connections, premium lifestyle experiences, and world-class healthcare, with a dedicated
+              bilingual team at every step.
             </p>
             <div className="btn-row">
-              <Link className="btn" to="/shenzhen-health-journey">
-                Our Health Journeys
+              <Link className="btn" to="/free-consultation">
+                Book a Free Consultation
               </Link>
-              <Link className="btn ghost" to="/free-consultation">
-                Free Consultation
+              <Link className="btn ghost" to="/shenzhen-health-journey">
+                View Health Journeys
               </Link>
             </div>
             <div className="trust-row">
               <span>
-                <span className="dot"></span>Dedicated bilingual coordinator
+                <span className="dot"></span>Business concierge
               </span>
               <span>
-                <span className="dot"></span>Five-star accommodation
+                <span className="dot"></span>Lifestyle experiences
               </span>
               <span>
-                <span className="dot"></span>Written plan and costs before you travel
+                <span className="dot"></span>Health coordination
               </span>
             </div>
           </div>
@@ -88,6 +88,49 @@ export default function Home() {
       </section>
 
       <ProofStrip />
+
+      {/* Three Pillars */}
+      <section className="section">
+        <div className="container">
+          <div className="section-head">
+            <span className="eyebrow">What M does</span>
+            <h2>
+              One concierge. <em>Three pillars.</em>
+            </h2>
+            <p className="lead">
+              Whether you are in China for business, travel or healthcare — or all three — M arranges every
+              detail so you can focus on the experience.
+            </p>
+          </div>
+          <div className="grid-3">
+            <div className="card">
+              <Icon variant="gold" />
+              <h3>Business</h3>
+              <p>
+                Curated industry visits, executive introductions, factory tours and business connections —
+                arranged with the precision your schedule demands.
+              </p>
+            </div>
+            <div className="card">
+              <Icon />
+              <h3>Lifestyle</h3>
+              <p>
+                Private travel, premium hotels, fine dining, local cultural experiences and bespoke
+                transportation — China at its very best.
+              </p>
+            </div>
+            <div className="card">
+              <Icon variant="red" />
+              <h3>Health</h3>
+              <p>
+                Executive health checkups, dental, wellness and full medical coordination — with licensed
+                providers and a bilingual coordinator throughout.
+              </p>
+              <Link className="link-arrow" to="/shenzhen-health-journey">View Health Journeys</Link>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Featured Health Journey */}
       <section className="section">
@@ -164,13 +207,13 @@ export default function Home() {
       <section className="section">
         <div className="container">
           <div className="section-head">
-            <span className="eyebrow">Medical Services</span>
+            <span className="eyebrow">Health</span>
             <h2>
-              From second opinions <em>to complex care.</em>
+              Medical care in China, <em>fully coordinated.</em>
             </h2>
             <p className="lead">
-              Need a specialist's view from home, or full coordination for a care trip to China? We cover
-              every stage of international patient care.
+              From executive health checkups and dental to written second opinions and complex care
+              coordination — M handles every stage so you don't have to.
             </p>
           </div>
           <div className="grid-2">
@@ -228,29 +271,29 @@ export default function Home() {
           <div className="section-head">
             <span className="eyebrow">How it works</span>
             <h2>
-              Four steps to seamless <em>international patient coordination.</em>
+              Four steps to a seamless <em>China experience.</em>
             </h2>
           </div>
           <div className="grid-4 steps">
             <div>
               <div className="step-num">01</div>
-              <h3>Tell Us Your Goals</h3>
-              <p>Share your needs and preferred dates in a free consultation.</p>
+              <h3>Tell Us What You Need</h3>
+              <p>Share your goals — business, lifestyle, health or all three — in a free consultation.</p>
             </div>
             <div>
               <div className="step-num">02</div>
-              <h3>Get Matched</h3>
-              <p>We connect you with licensed providers and book your appointments.</p>
+              <h3>We Build Your Plan</h3>
+              <p>Your concierge team arranges connections, experiences and appointments to match your brief.</p>
             </div>
             <div>
               <div className="step-num">03</div>
-              <h3>Receive Your Plan</h3>
-              <p>You'll receive your plan and estimated costs in writing before you commit.</p>
+              <h3>Review Before You Travel</h3>
+              <p>You receive your full itinerary and estimated costs in writing before committing to anything.</p>
             </div>
             <div>
               <div className="step-num">04</div>
-              <h3>Travel, Care and Follow-Up</h3>
-              <p>On-site bilingual support and follow-up after you return home.</p>
+              <h3>Travel with Full Support</h3>
+              <p>Your bilingual coordinator is with you on the ground and follows up once you return.</p>
             </div>
           </div>
           <div className="btn-row">
@@ -267,17 +310,17 @@ export default function Home() {
           <div>
             <span className="eyebrow">Concierge</span>
             <h2 style={{ marginBottom: '20px' }}>
-              Five-star, <em>from arrival to departure.</em>
+              Private, <em>seamless, five-star.</em>
             </h2>
             <p className="lead">
-              A private driver meets you at arrivals, five-star accommodation is arranged close to your
-              clinic, and private transport takes you to every appointment. You are accompanied throughout
-              by a dedicated bilingual coordinator.
+              Whether you are here on business, for a lifestyle experience or for healthcare, your M
+              concierge handles every detail — from private airport pickup and five-star accommodation to
+              curated itineraries and a bilingual coordinator throughout your stay.
             </p>
             <ul className="check-list" style={{ marginTop: '24px' }}>
-              <li>Private Airport Pickup</li>
+              <li>Private Airport Pickup and Transfers</li>
               <li>Five-Star Accommodation</li>
-              <li>Private Local Transportation</li>
+              <li>Curated Business and Lifestyle Itineraries</li>
               <li>Dedicated Bilingual Coordinator</li>
             </ul>
             <div className="btn-row">
@@ -299,20 +342,19 @@ export default function Home() {
           <div>
             <span className="eyebrow">Why choose M</span>
             <h2 style={{ marginBottom: '20px' }}>
-              Your care in China, <em>in trusted hands.</em>
+              Your China experience, <em>in trusted hands.</em>
             </h2>
             <p className="lead">
-              Cross-border medical services need more than just a phone number. M provides international
-              healthcare coordination via a professional bilingual team, with clear communication, written
-              plans, and a high level of support from the very first message right through to you flying
-              home.
+              M is a private, bilingual concierge for discerning visitors to China. Whether your priority
+              is business, lifestyle or health, we bring the same level of planning, communication and
+              on-the-ground support to every engagement.
             </p>
           </div>
           <ul className="check-list">
-            <li>Fast, clear replies from your international patient coordination team</li>
-            <li>A clear service plan and estimated costs before you book flights</li>
-            <li>Licensed partner providers, introduced to you directly</li>
-            <li>Support throughout your trip and after you return</li>
+            <li>Personal bilingual concierge for every engagement</li>
+            <li>Clear itinerary and estimated costs confirmed before you travel</li>
+            <li>Trusted partners across business, travel and healthcare</li>
+            <li>Full support throughout your stay and after you return</li>
           </ul>
         </div>
       </section>
@@ -330,8 +372,8 @@ export default function Home() {
       </section>
 
       <Cta
-        title="Ready to begin your China health journey?"
-        text="Book a free care coordination consultation with our international patient coordination team. We reply within one business day."
+        title="Ready for your private China experience?"
+        text="Talk to our concierge team about Business, Lifestyle or Health — or all three. We reply within one business day."
       />
     </>
   )

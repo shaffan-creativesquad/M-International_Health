@@ -47,7 +47,7 @@ export default function Terms() {
           <h2>Governing law</h2>
           <p>[To be confirmed.]</p>
           <h2>Contact</h2>
-          <p>[contact email] · 13904 Orangevale Ave, Corona, CA 92880, USA</p>
+          <p>[contact email]</p>
         </div>
       </section>
     </>

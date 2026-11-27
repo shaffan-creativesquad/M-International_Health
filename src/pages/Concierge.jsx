@@ -7,22 +7,22 @@ export default function Concierge() {
   return (
     <>
       <Seo
-        title="International Medical Concierge | Five-Star Care in China | M Global Health, Inc."
-        description="Private airport pickup, five-star accommodation, private local transport, and a dedicated bilingual coordinator. M Global Health, Inc. arranges everything through trusted partners."
+        title="Private Concierge in China | Business, Lifestyle & Health | M Global Health, Inc."
+        description="Private airport pickup, five-star accommodation, curated business and lifestyle itineraries, and a dedicated bilingual coordinator. M Global Health, Inc. arranges everything."
         path="/concierge"
       />
 
       <section className="page-hero dark">
         <div className="container">
           <Crumbs items={[['Concierge', null]]} />
-          <span className="eyebrow">International medical concierge</span>
+          <span className="eyebrow">Private concierge in China</span>
           <h1>
-            Five-star care, <em>from arrival to departure.</em>
+            Private. Five-star. <em>Every detail arranged.</em>
           </h1>
           <p className="lead">
-            Our international medical concierge handles every aspect of your stay in China — from a private
-            driver on arrival to five-star accommodation and a dedicated bilingual coordinator who is with
-            you throughout.
+            Your M concierge handles every aspect of your time in China — business or leisure, healthcare
+            or exploration — from a private driver on arrival to five-star accommodation and a dedicated
+            bilingual coordinator throughout your stay.
           </p>
           <div className="btn-row">
             <Link className="btn" to="/free-consultation">
@@ -67,17 +67,17 @@ export default function Concierge() {
               <Icon variant="gold" />
               <h3>Five-Star Accommodation</h3>
               <p>
-                Premium hotels selected for comfort, location and proximity to your clinic or hospital. We
-                arrange check-in, room preferences and any special requirements in advance so everything is
-                ready when you arrive.
+                Premium hotels selected for comfort, location and proximity to your clinic, meetings or
+                destination. We arrange check-in, room preferences and any special requirements in advance
+                so everything is ready when you arrive.
               </p>
             </div>
             <div className="card">
               <Icon variant="gold" />
               <h3>Private Local Transportation</h3>
               <p>
-                Private transfers to every appointment, on your schedule. No shared vehicles, no waiting
-                around — door-to-door service for every clinic visit, every day of your stay.
+                Private transfers to every appointment, meeting or destination, on your schedule. No shared
+                vehicles, no waiting — door-to-door service for every engagement throughout your stay.
               </p>
             </div>
             <div className="card">
@@ -104,16 +104,16 @@ export default function Concierge() {
           <div>
             <span className="eyebrow">Your destination</span>
             <h2 style={{ marginBottom: '20px' }}>
-              Premium hotels, <em>close to your clinic.</em>
+              Premium hotels, <em>in the right location.</em>
             </h2>
             <p>
-              Every accommodation we arrange is selected for quality, comfort and proximity to your
-              medical facility. You will never be far from your clinic, and you will always be staying
-              somewhere that reflects the standard of the trip.
+              Every accommodation we arrange is selected for quality, comfort and proximity to where you
+              need to be — whether that's a clinic, a business meeting or a cultural landmark. You will
+              always be staying somewhere that reflects the standard of your stay.
             </p>
             <ul className="check-list" style={{ marginTop: '24px' }}>
               <li>Five-star hotels only</li>
-              <li>Close to your clinic or hospital</li>
+              <li>Close to your clinic, meetings or destination</li>
               <li>Pre-arranged with your arrival details</li>
               <li>Itinerary shared with you before departure</li>
             </ul>
@@ -135,16 +135,32 @@ export default function Concierge() {
               <Icon />
               <h3>Itinerary Planning</h3>
               <p>
-                One clear schedule covering your care, accommodation, transfers and any cultural or dining
-                experiences — shared with you in advance so you know exactly what to expect.
+                One clear schedule covering your business, lifestyle or healthcare commitments, plus
+                accommodation and transfers — shared with you in advance so you know exactly what to expect.
+              </p>
+            </div>
+            <div className="card">
+              <Icon />
+              <h3>Business Arrangements</h3>
+              <p>
+                Industry introductions, executive visits, factory tours and meeting logistics — arranged
+                alongside your concierge services so your business trip runs as smoothly as your leisure time.
+              </p>
+            </div>
+            <div className="card">
+              <Icon />
+              <h3>Lifestyle Experiences</h3>
+              <p>
+                Fine dining, cultural visits, local guided experiences and leisure activities — curated to
+                your interests and woven into your itinerary.
               </p>
             </div>
             <div className="card">
               <Icon />
               <h3>Companion Travel</h3>
               <p>
-                Bringing family or a companion? We plan their stay alongside yours — same hotels, same
-                private transfers, the same level of care for everyone travelling with you.
+                Bringing family or a colleague? We plan their stay alongside yours — same hotels, same
+                private transfers, the same level of service for everyone travelling with you.
               </p>
             </div>
           </div>
@@ -152,8 +168,8 @@ export default function Concierge() {
       </section>
 
       <Cta
-        title="Experience our international medical concierge."
-        text="Book a free care coordination consultation. We reply within one business day and will walk you through every detail."
+        title="Your private concierge in China."
+        text="Talk to us about Business, Lifestyle or Health. We reply within one business day and will walk you through every detail."
       />
     </>
   )

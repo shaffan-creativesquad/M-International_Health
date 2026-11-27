@@ -14,15 +14,7 @@ export const ORG_SCHEMA = {
   url: DOMAIN + '/',
   logo: DOMAIN + '/assets/img/logo-mark.svg',
   description:
-    'International healthcare navigation platform connecting patients with healthcare providers in China, with care coordination, translation support and concierge travel arranged through trusted third-party providers.',
-  address: {
-    '@type': 'PostalAddress',
-    streetAddress: '13904 Orangevale Ave',
-    addressLocality: 'Corona',
-    addressRegion: 'CA',
-    postalCode: '92880',
-    addressCountry: 'US',
-  },
+    'Private concierge in China — Business, Lifestyle and Health. Curated business connections, premium lifestyle experiences and world-class healthcare, all arranged with a dedicated bilingual team.',
   sameAs: [INSTAGRAM],
 }
 

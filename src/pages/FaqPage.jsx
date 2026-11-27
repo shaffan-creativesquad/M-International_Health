@@ -11,7 +11,7 @@ const SCHEMA = [
         name: 'Does M provide medical treatment?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'No. M Global Health, Inc. is an international patient coordination service. We coordinate records, appointments, translation, and travel. Licensed healthcare professionals and medical institutions make all medical decisions and provide all treatment.',
+          text: 'No. For health services, M is a coordination and concierge service. Licensed healthcare professionals and medical institutions make all medical decisions and provide all treatment.',
         },
       },
       {
@@ -59,7 +59,7 @@ const SCHEMA = [
         name: 'Can a family member travel with me?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: "Yes. Our international medical concierge can look after your companion's stay as well as yours, including accommodation and transfers.",
+          text: "Yes. Our concierge can look after your companion's stay as well as yours, including accommodation and transfers.",
         },
       },
       {
@@ -110,8 +110,8 @@ export default function FaqPage() {
   return (
     <>
       <Seo
-        title="FAQ | Medical Care in China for Foreigners | M Global Health, Inc."
-        description="Answers to common questions about medical care in China for foreigners: second opinions, visas, language support, pricing, records, companions, and how M's coordination works."
+        title="FAQ | M Global Health, Inc. | Your Private Concierge in China"
+        description="Answers to common questions about M's Business, Lifestyle and Health services in China: concierge, business visits, lifestyle experiences, medical coordination, visas, language support and pricing."
         path="/faq"
         schema={SCHEMA}
       />
@@ -124,8 +124,8 @@ export default function FaqPage() {
             Questions, <em>answered.</em>
           </h1>
           <p className="lead">
-            Everything you need to know about medical care in China for foreigners. Can't find your answer?
-            Ask us in a free care coordination consultation.
+            Everything you need to know about M's Business, Lifestyle and Health services in China. Can't
+            find your answer? Ask us in a free consultation.
           </p>
         </div>
       </section>
@@ -137,20 +137,54 @@ export default function FaqPage() {
             <Faq
               items={[
                 [
-                  'Does M provide medical treatment?',
-                  'No. M Global Health, Inc. is an international patient coordination service. We coordinate records, appointments, translation, and travel. Licensed healthcare professionals and medical institutions make all medical decisions and provide all treatment.',
+                  'What does M do?',
+                  'M Global Health, Inc. is your private concierge in China — covering Business, Lifestyle and Health. We arrange executive business visits and industry connections, premium lifestyle and travel experiences, and healthcare coordination with licensed providers in China, all with a dedicated bilingual team.',
                 ],
                 [
                   'What is the free consultation?',
-                  "It's a care coordination call about your goals, dates, and options. It isn't a medical consultation or diagnosis. It helps us understand your needs and recommend the right next step.",
+                  "It's a conversation about your goals, dates and priorities — whether that's a business visit, a lifestyle trip, healthcare, or a combination. It isn't a medical consultation or a sales call. It helps us understand what you need and recommend the right next step.",
                 ],
                 [
                   'Which countries do you serve?',
-                  "We support international patients from around the world seeking medical care in China, whether that's a written second opinion from home or a coordinated trip to China.",
+                  "We support visitors and patients from around the world. Whether you are coming to China for business, a lifestyle experience or medical care, we can arrange your trip end to end.",
                 ],
                 [
-                  'Can I get a second opinion without traveling?',
-                  "Yes. Our online medical second opinion is a written, records-based review by a specialist in China. There's no travel and no video visit, and you can share the written opinion with your own doctor.",
+                  'Does M provide medical treatment?',
+                  'No. For health services, M is a coordination and concierge service. Licensed healthcare professionals and medical institutions make all medical decisions and provide all treatment.',
+                ],
+              ]}
+            />
+          </div>
+          <div className="faq-group">
+            <h2>Business services</h2>
+            <Faq
+              items={[
+                [
+                  'What business services does M arrange?',
+                  'We curate executive visits, factory tours, industry introductions and business connections across China. Everything is arranged to your brief — meetings, itinerary, transport and accommodation — so you can focus on the relationship, not the logistics.',
+                ],
+                [
+                  'Can M arrange meetings and introductions in China?',
+                  'Yes. We work with our local network to arrange relevant industry introductions, business visits and executive experiences tailored to your sector and objectives.',
+                ],
+                [
+                  'Do you work with individual executives or companies?',
+                  'Both. We work with individual business travellers and with companies sending teams to China. The itinerary, group size and priorities are always tailored to the brief.',
+                ],
+              ]}
+            />
+          </div>
+          <div className="faq-group">
+            <h2>Lifestyle services</h2>
+            <Faq
+              items={[
+                [
+                  'What lifestyle experiences does M arrange?',
+                  'Private travel, premium hotels, fine dining reservations, cultural experiences, local guides and bespoke transportation — we arrange China at its very best, tailored to your interests and schedule.',
+                ],
+                [
+                  'Can M arrange private dining or cultural experiences?',
+                  'Yes. We can arrange private dining, guided cultural and historical visits, local market tours, day trips and exclusive experiences depending on your destination and interests.',
                 ],
               ]}
             />
@@ -169,7 +203,7 @@ export default function FaqPage() {
                 ],
                 [
                   'Can a family member travel with me?',
-                  "Yes. Our international medical concierge can look after your companion's stay as well as yours, including accommodation and transfers.",
+                  "Yes. Our concierge can look after your companion's stay as well as yours, including accommodation and transfers.",
                 ],
               ]}
             />
@@ -213,7 +247,7 @@ export default function FaqPage() {
 
       <Cta
         title="Still have a question?"
-        text="Ask our care coordination team about medical care in China for foreigners. We reply within one business day."
+        text="Ask our concierge team about Business, Lifestyle or Health in China. We reply within one business day."
       />
     </>
   )

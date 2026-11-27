@@ -25,8 +25,8 @@ export default function PrivacyPolicy() {
           </p>
           <h2>Who we are</h2>
           <p>
-            M Global Health, Inc. ("M", "we", "us") is a healthcare navigation and care coordination
-            service located at 13904 Orangevale Ave, Corona, CA 92880, USA. Contact: [privacy email].
+            M Global Health, Inc. ("M", "we", "us") is a private concierge and care coordination
+            service. Contact: [privacy email].
           </p>
           <h2>Information we collect</h2>
           <ul>
@@ -88,7 +88,7 @@ export default function PrivacyPolicy() {
             .
           </p>
           <h2>Contact</h2>
-          <p>[privacy email] · 13904 Orangevale Ave, Corona, CA 92880, USA</p>
+          <p>[privacy email]</p>
         </div>
       </section>
     </>

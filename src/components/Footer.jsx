@@ -11,8 +11,8 @@ export default function Footer() {
               <img src="/assets/img/footer-logo.jpeg" alt="M Global Health, Inc." className="logo-img" />
             </Link>
             <p className="footer-about">
-              An international healthcare navigation platform connecting patients with healthcare providers in
-              China, with dedicated care coordination at every step.
+              Your private concierge in China — Business, Lifestyle and Health — with a dedicated bilingual
+              team at every step.
             </p>
           </div>
           <div>
@@ -76,11 +76,6 @@ export default function Footer() {
               {/* TODO: add M's TikTok profile URL */}
               <li>
                 <a href="#">TikTok</a>
-              </li>
-              <li>
-                13904 Orangevale Ave
-                <br />
-                Corona, CA 92880, USA
               </li>
               {/* TODO: add M's public email and WhatsApp/phone once confirmed */}
             </ul>

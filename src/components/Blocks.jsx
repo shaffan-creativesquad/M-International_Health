@@ -35,14 +35,14 @@ export function Cta({
 
 export function ProofStrip() {
   return (
-    <section className="strip" aria-label="What we coordinate">
+    <section className="strip" aria-label="What M offers">
       <div className="container">
         <ul>
-          <li>Dedicated care coordination</li>
-          <li>Licensed partner providers</li>
-          <li>Interpreter support</li>
+          <li>Business concierge</li>
+          <li>Lifestyle experiences</li>
+          <li>Healthcare coordination</li>
+          <li>Dedicated bilingual coordinator</li>
           <li>Five-star travel and stay</li>
-          <li>Clear service plan and estimated costs before you travel</li>
         </ul>
       </div>
     </section>
